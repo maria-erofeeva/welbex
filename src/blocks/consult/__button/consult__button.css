@@ -1,10 +1,16 @@
 .consult__button {
-    background-color: #4077F3;
-    min-width: 262px;
-    height: 61px;
-    color: #E4E5EA;
-    font-size: 16px;
-    border: 0;
-    padding: 0;
-    margin: 61px 0 0 auto;
+  background-color: #4077f3;
+  min-width: 262px;
+  height: 61px;
+  color: #e4e5ea;
+  font-size: 16px;
+  border: 0;
+  padding: 0;
+  margin: 61px 0 0 auto;
+}
+
+@media screen and (max-width: 680px) {
+  .consult__button {
+    display: none;
+  }
 }

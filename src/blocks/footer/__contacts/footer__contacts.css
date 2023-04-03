@@ -1,4 +1,19 @@
 .footer__contacts {
-    text-align: right;
-    margin: 0 0 0 auto;
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 680px) {
+  .footer__contacts {
+    position: absolute;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__contacts {
+    position: static;
+    margin: 20px auto 0 0;
+    text-align: left;
+  }
 }

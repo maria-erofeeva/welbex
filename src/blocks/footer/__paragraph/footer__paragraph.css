@@ -1,6 +1,16 @@
 .footer__paragraph {
-    text-transform: uppercase;
-    color: #656566;
-    margin: 0 0 20px 0;
-    font-weight: 700;
+  text-transform: uppercase;
+  color: #656566;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__paragraph {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+  }
 }

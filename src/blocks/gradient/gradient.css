@@ -1,13 +1,9 @@
 .gradient {
-  position: absolute;
   z-index: -1;
-  height: 62px;
-  width: 62px;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0;
-  background: url("../../images/red\ ball.svg");
-  background-size: cover;
-  top: 547px;
-  left: 851px;
+  position: absolute;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
 }

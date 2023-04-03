@@ -54,11 +54,20 @@ const Footer = () => {
               Кейсы
             </a>
           </li>
-          <li className="menu__list">
-            <a href="&" className="menu__link">
-              Благодарственные письма
-            </a>
-          </li>
+          {document.documentElement.clientWidth > 480 ? (
+            <li className="menu__list">
+              <a href="&" className="menu__link">
+                Благодарственные письма
+              </a>
+            </li>
+          ) : (
+            <li className="menu__list">
+              <a href="&" className="menu__link">
+                Благодарность клиентов
+              </a>
+            </li>
+          )}
+
           <li className="menu__list">
             <a href="&" className="menu__link">
               Сертификаты

@@ -1,7 +1,7 @@
 .header__logo-image {
-    background-image: url(../../../images/logo_welbex.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    min-width: 140px;
-    min-height: 24px;
+  background-image: url(../../../images/logo_welbex.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 140px;
+  min-height: 24px;
 }

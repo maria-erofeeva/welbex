@@ -1,6 +1,19 @@
 .consult__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  text-align: right;
+}
+
+@media screen and (max-width: 680px) {
+  .consult__container {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .consult__container {
+    gap: 14px 10px;
+    grid-template-columns: 113px 1fr;
+  }
 }

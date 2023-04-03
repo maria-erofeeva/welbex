@@ -1,11 +1,23 @@
 .header {
-    width: 100%;
-    margin-bottom: 90px;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 90px;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 15px;
 }
 
-.header .contacts {
-    margin: 0 0 0 auto;
-    padding-top: 14px;
+@media screen and (max-width: 767px) {
+  .header {
+    margin-bottom: 69px;
+    padding: 20px 10px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    background-color: #1e1e1e;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 }

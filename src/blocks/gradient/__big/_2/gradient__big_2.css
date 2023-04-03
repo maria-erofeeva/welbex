@@ -1,0 +1,30 @@
+.gradient__big_2 {
+  width: 259px;
+  height: 259px;
+  left: 602px;
+  top: -154px;
+  background: #833ab4;
+  opacity: 0.5;
+  filter: blur(196px);
+
+}
+
+@media screen and (max-width: 991px) {
+  .gradient__big_2 {
+    left: 402px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gradient__big_2 {
+    left: 208px;
+    top: 107px;
+    filter: blur(196px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gradient__big_2 {
+    left: 60px;
+  }
+}

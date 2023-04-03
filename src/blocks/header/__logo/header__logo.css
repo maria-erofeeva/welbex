@@ -1,6 +1,18 @@
 .header__logo {
-    display: flex;
-    flex-direction: column;
-    max-width: 140px;
-    margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  margin-right: 26px;
+}
+
+@media screen and (max-width: 991px) {
+  .header__logo {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__logo {
+    display: none;
+  }
 }

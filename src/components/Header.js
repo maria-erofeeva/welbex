@@ -33,11 +33,12 @@ const Header = () => {
             Кейсы
           </a>
         </li>
-        <li className="menu__list">
+        {document.documentElement.clientWidth > 480 ? <li className="menu__list">
           <a href="&" className="menu__link">
             Сертификаты
           </a>
-        </li>
+        </li> : <></>}
+        
       </ul>
       <div className="contacts">
         <a className="contacts__phone" href="tel:+75555555555">

@@ -1,4 +1,19 @@
 .footer__contacts-address {
-    font-size: 16px;
-    margin: 0;
+  font-size: 16px;
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 944px) {
+  .footer__contacts-address {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__contacts-address {
+    margin: 0 auto 0 0;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: fit-content;
+  }
 }

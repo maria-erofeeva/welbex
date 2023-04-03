@@ -1,5 +1,17 @@
 .consult__container-title {
-    margin: 0 0 6px 0;
+  margin: 0 0 6px 0;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .consult__container-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+  }
 }

@@ -1,3 +1,18 @@
 .footer__copyright {
-    margin-top: 70px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 680px) {
+  .footer__copyright {
+    position: absolute;
+    bottom: -275px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__copyright {
+    position: static;
+    margin-top: 50px;
+  }
 }
