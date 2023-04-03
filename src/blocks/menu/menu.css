@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    padding: 15px 0 0 52px;
+    margin: 0;
+}
+
+.footer .menu {
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 142px;
+}
+

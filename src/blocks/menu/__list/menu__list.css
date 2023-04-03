@@ -1,0 +1,18 @@
+.menu__list {
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.menu__list:last-child {
+    padding-right: 0;
+}
+
+.footer .menu__list {
+    list-style-type: none;
+    padding: 0 52px 10px 0;
+}
+
+.footer .menu__list:last-child {
+    padding: 0 52px 0 0;
+}
+

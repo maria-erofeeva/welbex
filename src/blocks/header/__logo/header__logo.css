@@ -1,0 +1,6 @@
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+    margin-top: 11px;
+}

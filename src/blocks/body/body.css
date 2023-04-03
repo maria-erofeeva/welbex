@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(30, 30, 30, 1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #E4E5EA;
+    font-family: "Inter", Arial, sans-serif;
+    min-height: 100vh;
+    padding-top: 46px;
+    position: relative;
+}

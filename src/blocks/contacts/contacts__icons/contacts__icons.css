@@ -1,0 +1,13 @@
+.contacts__icons {
+    display: flex;
+    margin: 0;
+}
+
+.header .contacts__icons {
+    padding-left: 47px;
+}
+
+.footer .contacts__icons {
+    justify-content: flex-end;
+    margin: 21px 0 20px 0;
+}

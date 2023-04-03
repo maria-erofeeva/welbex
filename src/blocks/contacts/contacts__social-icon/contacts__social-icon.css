@@ -1,0 +1,21 @@
+.contacts__social-icon {
+  list-style-type: none;
+  text-decoration: none;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.header .contacts__social-icon {
+  padding-right: 30px;
+}
+.header .contacts__social-icon:last-child {
+  padding-right: 0;
+}
+
+.footer .contacts__social-icon {
+  padding-left: 10px;
+}
+
+.footer .contacts__social-icon:first-child {
+  padding-left: 0;
+}

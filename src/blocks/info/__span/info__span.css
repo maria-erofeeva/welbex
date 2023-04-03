@@ -1,0 +1,8 @@
+.info__span {
+  font-weight: 900;
+  font-size: 48px;
+  background-image: linear-gradient(90deg, #fcb045, #ff3f78);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

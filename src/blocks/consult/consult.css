@@ -1,0 +1,6 @@
+.consult {
+    max-width: 299px;
+    display: flex;
+    flex-direction: column;
+    
+}
